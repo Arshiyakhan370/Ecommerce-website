@@ -3,10 +3,10 @@ import { Container } from "react-bootstrap";
 function About() {
   return (
     <>
-      <div className="mt-5">About page</div>
+      <div className="mt-5">About Page</div>
       <h1
         className="text-center font-weight-bolder mt-5"
-        style={{ fontFamily: "italic" }}>
+        style={{ fontFamily: "serif" }}>
         About Us
       </h1>
 

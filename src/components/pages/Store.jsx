@@ -47,7 +47,7 @@ function Store() {
               className="display-4 font-weight-bolder mt-4"
               style={{ fontFamily: "serif" }}
             >
-              Welcome to Generics Store
+              Welcome to SaK Generics Store
             </h3>
           </div>
 

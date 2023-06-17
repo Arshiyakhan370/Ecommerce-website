@@ -24,7 +24,7 @@ function Products() {
               <h2 className="pl-5 pb-5">
                 Quality :{" "}
                 <Badge pill variant="warning" className="bg-warning">
-                  5 Star
+                5 Star
                 </Badge>
               </h2>
             </div>

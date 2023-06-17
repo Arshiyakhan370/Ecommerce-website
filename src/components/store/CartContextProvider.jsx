@@ -24,7 +24,7 @@ function reducer(state, actions) {
   if (actions.type === "remove") {
     const { key } = actions.payload;
 
-    if (items[key].count > 1) {
+    if (items[key].count > 3) {
       items[key].count--;
     } else {
       delete items[key];
