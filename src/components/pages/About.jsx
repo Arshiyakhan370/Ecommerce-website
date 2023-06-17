@@ -6,18 +6,17 @@ function About() {
       <div className="mt-5">About page</div>
       <h1
         className="text-center font-weight-bolder mt-5"
-        style={{ fontFamily: "serif" }}
-      >
+        style={{ fontFamily: "italic" }}>
         About Us
       </h1>
 
       <Container className="mb-5">
         <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5rb3kSwAQ8kOrZoAHe8cKehACyjO5ZqssXw&usqp=CAU"
+          src="https://prasadyash2411.github.io/ecom-website/img/Band%20Members.png"
           alt="About us"
           height="350px"
           style={{ borderRadius: "50%" }}
-          className="float-left mr-4"
+          className="float-right mr-4"
         />
         <div className="">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae

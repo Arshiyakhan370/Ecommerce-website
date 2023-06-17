@@ -4,7 +4,7 @@ import CartContext from "../store/cart-context";
 
 function CartModalData(props) {
   const { addItem, removeItem } = useContext(CartContext);
-
+    
   return (
     <tr className="border-bottom">
       <td>

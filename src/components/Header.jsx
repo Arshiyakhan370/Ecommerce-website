@@ -20,21 +20,21 @@ function Header() {
     >
       <Navbar.Brand href="#home" className="mr-5">
         <h1 style={{ fontFamily: "serif" }} className="font-weight-bolder">
-          My Generics
+          SaK Generics
         </h1>
       </Navbar.Brand>
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav variant="pills" defaultActiveKey="/home" className="mr-auto">
-          <NavLink className="btn btn-primary mr-3" to="/">
+          <NavLink className="btn btn-primary mr-4" to="/">
             Home
           </NavLink>
-          <NavLink className="btn btn-primary mr-3" to="/store">
+          <NavLink className="btn btn-primary mr-4" to="/store">
             Store
           </NavLink>
-          <NavLink className="btn btn-primary mr-3" to="/about">
+          <NavLink className="btn btn-primary mr-4" to="/about">
             About
           </NavLink>
-          <NavLink className="btn btn-primary mr-3" to="/contact">
+          <NavLink className="btn btn-primary mr-4" to="/contact">
             Contact Us
           </NavLink>
         </Nav>
@@ -46,7 +46,7 @@ function Header() {
             onClick={cartModalHandler}
           >
             Cart
-            <Badge pill variant="light" className="ml-3 p-2">
+            <Badge pill variant="transparent" className="ml-3 p-2">
               {totalItems}
             </Badge>
           </Button>

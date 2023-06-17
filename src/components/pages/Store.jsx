@@ -10,25 +10,25 @@ export const STOREDATA = [
   {
     id: "a101",
     title: "Colors",
-    price: 100.0,
+    price: 7800.0,
     url: "https://prasadyash2411.github.io/ecom-website/img/Album%201.png",
   },
   {
     id: "a102",
     title: "Yellow and Black Colors",
-    price: 12.5,
+    price: 3900,
     url: "https://prasadyash2411.github.io/ecom-website/img/Album%202.png",
   },
   {
     id: "a103",
     title: "Black and white Colors",
-    price: 29.99,
+    price: 5460,
     url: "https://prasadyash2411.github.io/ecom-website/img/Album%203.png",
   },
   {
     id: "a104",
     title: "Blue Color",
-    price: 10.25,
+    price: 6640 ,
     url: "https://prasadyash2411.github.io/ecom-website/img/Album%204.png",
   },
 ];
@@ -74,7 +74,7 @@ function Store() {
 
           <div className="text-center mb-5">
             <Button variant="primary" onClick={cartModalHandler}>
-              Show Cart
+              See The Cart
             </Button>
           </div>
         </>
@@ -82,7 +82,7 @@ function Store() {
 
       {loc.pathname === "/store" && !isLoggedIn && (
         <>
-          <h1 className="display-1 mt-5 p-5">Access Denied</h1>
+          <h1 className="display-1 mt-5 p-5">Kept Off</h1>
           <h2 className="display-4 p-5">
             Signin/Signup to get access to Store page
           </h2>

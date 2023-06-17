@@ -31,7 +31,7 @@ function StoreDataList(props) {
       </div>
       <div className="d-flex align-items-center justify-content-between my-3">
         <p style={{ fontFamily: "serif", paddingTop: "12px" }}>
-          ${props.price.toFixed(2)}
+          ₹{props.price.toFixed(2)}
         </p>
         <Button
           variant="info"
@@ -40,7 +40,7 @@ function StoreDataList(props) {
             addItem(props.id, props.url, props.title, props.price);
           }}
         >
-          ADD TO CART
+          +ADD
         </Button>
       </div>
     </div>

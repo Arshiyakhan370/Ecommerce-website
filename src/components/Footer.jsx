@@ -7,7 +7,7 @@ function Footer() {
         style={{ fontFamily: "serif" }}
         className="display-4 font-weight-bolder"
       >
-        My Generics
+        SaK Generics
       </span>
       <div className="d-flex">
         <Button variant="info mx-3">

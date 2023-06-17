@@ -60,7 +60,7 @@ function CartModal() {
             className="font-weight-bolder float-right mr-5"
             style={{ fontFamily: "serif" }}
           >
-            Total Price : $<span>{totalPrice}</span>
+            Total Price : ₹<span>{totalPrice}</span>
           </h4>
         </Modal.Body>
         <Modal.Footer className="d-flex justify-content-between">

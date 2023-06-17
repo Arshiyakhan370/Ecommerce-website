@@ -20,7 +20,7 @@ function AlertModal(props) {
         <Modal.Body className={theme}>{props.body}</Modal.Body>
         <Modal.Footer className={theme}>
           <Button
-            variant="dark"
+            variant="green"
             onClick={() => {
               alertModalHandler("", "", "");
             }}

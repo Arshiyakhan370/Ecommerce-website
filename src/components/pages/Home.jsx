@@ -14,7 +14,7 @@ function Home() {
 
       <h1
         className="text-center font-weight-bolder my-5"
-        style={{ fontFamily: "serif" }}
+        style={{ fontFamily: "Italic" }}
       >
         Tours
       </h1>
